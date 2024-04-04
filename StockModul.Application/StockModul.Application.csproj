@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StockModul.Infrastruction\StockModul.Infrastruction.csproj" />
+    <ProjectReference Include="..\StockModul.Shared\StockModul.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
